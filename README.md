@@ -50,7 +50,7 @@ Refine further by specifying depth, recording style, and post-impact details.
 Example:
 “A realistic audio clip of a glass bottle dropping and shattering on a polished wooden floor inside a medium-sized room, with crisp crackling sounds of glass fragments scattering, natural wooden resonance, and slight echo for depth.”
 
-### 6.:Generate the Audio:
+### 6.Generate the Audio:
 
 Use the crafted prompt in a text-to-audio generation model (e.g., Stable Audio, AudioLDM, ElevenLabs Sound Effects).
 
@@ -80,6 +80,7 @@ Assess how closely the generated clip matches the original in terms of sharpness
 
 6.Save and document the final audio along with prompts used.
 
+<img width="1536" height="1024" alt="ChatGPT Image Sep 24, 2025, 09_00_10 AM" src="https://github.com/user-attachments/assets/ecbd0524-e9b2-4fbb-bd6e-24bca6772d33" />
 
 
 ## Deliverables:
