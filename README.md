@@ -4,101 +4,99 @@
 ### Reg. No: 212222230034 
 
 ## Aim:
-To demonstrate the ability of text-to-image generation tools to reproduce an existing image by crafting precise prompts. The goal is to identify key elements within the image and use these details to generate an image as close as possible to the original.
+
+To demonstrate the ability of text-to-image generation tools to transform an existing image (daytime city skyline) into a stylized version (neon-lit cyberpunk night scene) while preserving key elements such as skyline structure and composition.
 
 ## Procedure:
-### 1.Analyze the Given Sound:
-Examine the audio carefully, noting key elements such as:
 
-i)Source: The type of object creating the sound (e.g., glass bottle).
+### 1. Analyze the Given Image:
 
-ii)Action: The specific event producing the sound (e.g., shattering, breaking, scattering).
+Objects/Subjects: Buildings, skyscrapers, streets, bridges, cityscape.
 
-iii)Surface Interaction: The medium where the sound occurs (e.g., wooden floor).
+Colors: Original daytime palette (sky blue, grey, and neutral building colors).
 
-iv)Acoustics: Depth, echo, reverb, or resonance caused by the environment.
+Textures: Smooth surfaces, glass reflections on buildings.
 
-v)Background Noise: Whether the sound occurs in silence or with ambient sounds.
+Lighting: Natural daylight with shadows.
 
-vi)Style: Realistic recording, cinematic effect, or exaggerated Foley sound.
+Background: Clear sky, horizon visible.
 
-### 2.Create the Basic Prompt:
+Composition: Skyline with identifiable landmarks, horizon line clear.
 
-Start with a simple description of the primary sound.
+Style: Realistic photography.
 
-Example:
-“Sound of a glass bottle breaking.”
+### 2. Create the Basic Prompt:
 
-### 3.Refine the Prompt with More Detail:
+“A city skyline with skyscrapers and streets during the day.”
 
-Add details such as the surface, acoustic qualities, and environment.
+### 3. Refine the Prompt with More Detail:
 
-Example:
-“A realistic sound of a glass bottle shattering into small pieces on a wooden floor.”
+“A city skyline with tall skyscrapers, streets below, and a clear sky, captured from a distance in daytime.”
 
-### 4.Identify Style and Acoustic Influences:
+### 4. Identify Style and Artistic Influences:
 
-If the sound has specific qualities (cinematic, ASMR, studio-recorded), include them in the prompt.
+Target style: Cyberpunk, neon-lit, futuristic night scene.
 
-Example:
-“A cinematic-quality sound of a glass bottle shattering, with sharp glass fragments scattering across a polished wooden floor, captured with room echo.”
+Artistic references: Blade Runner aesthetic, neon reflections, moody night atmosphere.
 
-### 5.Adjust and Fine-tune:
+### 5. Adjust and Fine-tune Prompt:
 
-Refine further by specifying depth, recording style, and post-impact details.
+“A futuristic cyberpunk city skyline at night, with neon lights in pink, blue, and purple illuminating the skyscrapers, wet reflective streets below, glowing holographic signs, atmospheric fog, and a dramatic dark sky. Maintain the original skyline structure and perspective, emphasizing futuristic reflections and glowing details.”
 
-Example:
-“A realistic audio clip of a glass bottle dropping and shattering on a polished wooden floor inside a medium-sized room, with crisp crackling sounds of glass fragments scattering, natural wooden resonance, and slight echo for depth.”
+### 6. Generate the Image:
 
-### 6.Generate the Audio:
+Use DALL·E, Stable Diffusion, or MidJourney.
 
-Use the crafted prompt in a text-to-audio generation model (e.g., Stable Audio, AudioLDM, ElevenLabs Sound Effects).
+Input the refined prompt and generate multiple variations if possible.
 
-### 7.Compare the Generated Audio with the Original:
+### 7. Compare the Generated Image with the Original:
 
-Assess how closely the generated clip matches the original in terms of sharpness, echo, resonance, and realism. Note differences and refine the prompt if needed
+Check if:
+
+Skyline structure matches the original daytime photo.
+
+Neon lights and cyberpunk elements are correctly applied.
+
+Reflections, fog, and atmospheric effects are realistic.
+
+Colors and lighting give a night-time cyberpunk feel.
+
+### 8. Iterate and Adjust:
+
+If needed, refine prompt:
+
+“Increase neon glow intensity, add more futuristic holographic billboards, slightly foggy atmosphere, and reflections on buildings and streets.”
+
+### 9. Save and Document:
+
+Save the final AI-generated image.
+
+Document the prompt iterations and observations.
 
 ## Tools/LLMs for Image Generation:
+● DALL·E (by OpenAI): A text-to-image generation tool capable of creating detailed images from textual prompts. ○ Website: DALL·E 
 
-●	Stable Audio (by Stability AI): High-quality text-to-audio generation tool.
+● Stable Diffusion: An open-source model for generating images from text prompts, known for its flexibility and customizable outputs. ○ Website: Stable Diffusion 
 
-●	AudioLDM: Open-source model for generating sound effects and music from text.
-
-●	ElevenLabs Sound Effects: AI platform for realistic sound effect generation.
-
-## Instructions:
-
-1.Examine the given sound and identify its acoustic elements.
-
-2.Write a basic description (e.g., “Glass bottle breaking”).
-
-3.Refine the prompt with details such as material, floor type, echo, and style.
-
-4.Use a text-to-audio generation tool to produce the sound.
-
-5.Iterate and adjust until the generated sound closely matches the original.
-
-6.Save and document the final audio along with prompts used.
-
-<img width="1536" height="1024" alt="ChatGPT Image Sep 24, 2025, 09_00_10 AM" src="https://github.com/user-attachments/assets/ecbd0524-e9b2-4fbb-bd6e-24bca6772d33" />
-
+● MidJourney: A popular AI tool for generating visually striking and creative images based on text descriptions. ○ Website: MidJourney
 
 ## Deliverables:
-1.	The Original Image: Provided audio clip of a glass bottle shattering on a wooden floor.
-2.	The Final Generated Image: The audio clip created using refined prompts.
-3.	Prompts Used:
-   
-●“Sound of a glass bottle breaking.”
 
-●“Realistic sound of a glass bottle shattering into many pieces on a wooden floor.”
+1.Original Image: Provided daytime city skyline.
 
-●“A cinematic-quality sound of a glass bottle dropping and shattering on a polished wooden floor inside a room, with crisp crackling glass fragments scattering, natural resonance, and slight echo for depth.”
+2.Final Generated Image: Neon-lit cyberpunk night scene with the skyline preserved.
 
-4.	Comparison Report:
-   <img width="838" height="277" alt="image" src="https://github.com/user-attachments/assets/9cef9bf6-84f9-4ebe-a071-6af484b4de8d" />
+3.Prompts Used:
 
+Basic Prompt: “A city skyline with skyscrapers and streets during the day.”
+
+Refined Prompt: “A futuristic cyberpunk city skyline at night, with neon lights in pink, blue, and purple illuminating the skyscrapers, wet reflective streets below, glowing holographic signs, atmospheric fog, and a dramatic dark sky. Maintain the original skyline structure and perspective.”
+
+4. Comparison Report:
+
+<img width="977" height="346" alt="image" src="https://github.com/user-attachments/assets/c533d32e-0da7-4ae1-a8d0-20f62db878a0" />
 
 ## Conclusion:
-By using well-crafted prompts, text-to-audio generation models can reproduce realistic sound effects such as a glass bottle shattering on a wooden floor. The accuracy of the generated sound depends on how precisely the prompt describes acoustic details like surface interaction, echo, and resonance. This experiment demonstrates the importance of iterative prompt refinement for achieving natural, cinematic-quality audio that can be effectively used in short films, games, and creative media projects.
+By carefully analyzing the original image and iteratively refining the prompt, text-to-image AI models can transform a daytime city skyline into a visually compelling cyberpunk night scene while preserving the original composition. Prompt specificity in terms of lighting, colors, reflections, and atmosphere is key to achieving realistic and stylistically accurate results.
 
 
