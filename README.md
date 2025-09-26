@@ -5,98 +5,101 @@
 
 ## Aim:
 
-To demonstrate the ability of text-to-image generation tools to transform an existing image (daytime city skyline) into a stylized version (neon-lit cyberpunk night scene) while preserving key elements such as skyline structure and composition.
+To demonstrate the ability of text-to-image generation tools to transform a portrait in classic realism into a stylized digital anime version while maintaining the subject’s expression and pose. The goal is to explore how prompt engineering can guide AI models in stylistic transformations.
 
 ## Procedure:
 
-### 1. Analyze the Given Image:
+### 1.Analyze the Given Portrait:
 
-Objects/Subjects: Buildings, skyscrapers, streets, bridges, cityscape.
+● Note the character’s expression (smiling, serious, thoughtful).
 
-Colors: Original daytime palette (sky blue, grey, and neutral building colors).
+● Observe the pose (head tilt, body angle, hand positioning).
 
-Textures: Smooth surfaces, glass reflections on buildings.
+● Identify physical details (hair color, eye shape, clothing, accessories).
 
-Lighting: Natural daylight with shadows.
+● Recognize the lighting (soft, dramatic, natural) and background.
 
-Background: Clear sky, horizon visible.
+### 2.Create the Basic Prompt:
 
-Composition: Skyline with identifiable landmarks, horizon line clear.
+● Start with a simple description of the portrait, e.g.,
 
-Style: Realistic photography.
+"A realistic portrait of a young woman with long brown hair, looking directly at the viewer."
 
-### 2. Create the Basic Prompt:
+### 3.Refine the Prompt with Anime Stylization:
 
-“A city skyline with skyscrapers and streets during the day.”
+● Add instructions for anime transformation, e.g.,
 
-### 3. Refine the Prompt with More Detail:
+"An anime-style digital illustration of a young woman with long brown hair, looking directly at the viewer, maintaining her calm expression and seated pose."
 
-“A city skyline with tall skyscrapers, streets below, and a clear sky, captured from a distance in daytime.”
+### 4.Specify Artistic Style and Details:
 
-### 4. Identify Style and Artistic Influences:
+● Choose an anime substyle (e.g., Studio Ghibli, modern digital anime, manga line-art).
 
-Target style: Cyberpunk, neon-lit, futuristic night scene.
+● Example refinement:
 
-Artistic references: Blade Runner aesthetic, neon reflections, moody night atmosphere.
+"A vibrant anime-style illustration with large expressive eyes, clean digital shading, and pastel tones, capturing the same calm expression and seated pose as the original portrait."
 
-### 5. Adjust and Fine-tune Prompt:
+### 5.Fine-Tune for Accuracy:
 
-“A futuristic cyberpunk city skyline at night, with neon lights in pink, blue, and purple illuminating the skyscrapers, wet reflective streets below, glowing holographic signs, atmospheric fog, and a dramatic dark sky. Maintain the original skyline structure and perspective, emphasizing futuristic reflections and glowing details.”
+● Add details about clothing, background, or mood if important.
 
-### 6. Generate the Image:
+● Example:
 
-Use DALL·E, Stable Diffusion, or MidJourney.
+"A digital anime artwork of a young woman with long brown hair, wearing a white blouse, sitting with a calm expression, soft glow lighting, background kept minimal for focus."
 
-Input the refined prompt and generate multiple variations if possible.
+### 6.Generate the Image:
 
-### 7. Compare the Generated Image with the Original:
+● Use AI tools such as DALL·E, Stable Diffusion, or MidJourney with the crafted prompt.
 
-Check if:
+### 7.Compare with the Original:
 
-Skyline structure matches the original daytime photo.
+● Check whether the expression and pose are preserved.
 
-Neon lights and cyberpunk elements are correctly applied.
+● Assess anime stylization quality (eye size, line sharpness, shading).
 
-Reflections, fog, and atmospheric effects are realistic.
-
-Colors and lighting give a night-time cyberpunk feel.
-
-### 8. Iterate and Adjust:
-
-If needed, refine prompt:
-
-“Increase neon glow intensity, add more futuristic holographic billboards, slightly foggy atmosphere, and reflections on buildings and streets.”
-
-### 9. Save and Document:
-
-Save the final AI-generated image.
-
-Document the prompt iterations and observations.
+● Refine the prompt if necessary.
 
 ## Tools/LLMs for Image Generation:
-● DALL·E (by OpenAI): A text-to-image generation tool capable of creating detailed images from textual prompts. ○ Website: DALL·E 
+● DALL·E (by OpenAI) – Effective for prompt-driven transformations.
 
-● Stable Diffusion: An open-source model for generating images from text prompts, known for its flexibility and customizable outputs. ○ Website: Stable Diffusion 
+● Stable Diffusion – Flexible, allows fine-tuning and style guidance.
 
-● MidJourney: A popular AI tool for generating visually striking and creative images based on text descriptions. ○ Website: MidJourney
+● MidJourney – Strong in creative anime-style outputs.
+
+## Instructions:
+
+● Examine the portrait and extract key features.
+
+● Write an initial prompt describing the subject.
+
+● Refine the prompt by adding anime stylistic details.
+
+● Input into the chosen AI model.
+
+● Iterate until the generated anime image preserves expression and pose.
+
+● Save both original and stylized versions.
 
 ## Deliverables:
 
-1.Original Image: Provided daytime city skyline.
+1.Original Portrait Image (realistic version).
 
-2.Final Generated Image: Neon-lit cyberpunk night scene with the skyline preserved.
+2.Final Anime-Stylized Image (generated).
 
-3.Prompts Used:
-
-Basic Prompt: “A city skyline with skyscrapers and streets during the day.”
-
-Refined Prompt: “A futuristic cyberpunk city skyline at night, with neon lights in pink, blue, and purple illuminating the skyscrapers, wet reflective streets below, glowing holographic signs, atmospheric fog, and a dramatic dark sky. Maintain the original skyline structure and perspective.”
+3.Prompts Used (initial → refined).
 
 4. Comparison Report:
 
-<img width="977" height="346" alt="image" src="https://github.com/user-attachments/assets/c533d32e-0da7-4ae1-a8d0-20f62db878a0" />
+<img width="1011" height="525" alt="image" src="https://github.com/user-attachments/assets/79df737a-e1d0-46d0-9b91-a89d081d0d41" />
+
+### Original Image:
+<img width="1024" height="1536" alt="ChatGPT Image Sep 26, 2025, 06_47_03 PM" src="https://github.com/user-attachments/assets/a3a143d4-9c33-46c7-b753-678ed5540571" />
+
+### Generated Image:
+<img width="1024" height="1536" alt="ChatGPT Image Sep 26, 2025, 06_48_03 PM" src="https://github.com/user-attachments/assets/f074fedd-bdb2-49ea-8268-52a0402f8db4" />
 
 ## Conclusion:
-By carefully analyzing the original image and iteratively refining the prompt, text-to-image AI models can transform a daytime city skyline into a visually compelling cyberpunk night scene while preserving the original composition. Prompt specificity in terms of lighting, colors, reflections, and atmosphere is key to achieving realistic and stylistically accurate results.
+
+This experiment highlights how AI image generation tools can stylize a realistic portrait into an anime version while preserving key character traits such as expression and pose. Success depends on crafting precise prompts, specifying the desired anime style, and iterative refinement. This demonstrates the potential of AI for artistic reinterpretation and creative media applications.
 
 
